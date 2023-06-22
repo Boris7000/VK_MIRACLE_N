@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ownerChip"
+    android:layout_width="wrap_content"
+    android:layout_height="48dp"
+    android:background="@drawable/rounded_ripple_r100"
+    tools:showIn="@layout/wall_include_post_header">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/ownerPhoto"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:padding="@dimen/imageBorderWidth"
+        android:background="?attr/colorPlaceholder"
+        app:shapeAppearanceOverlay="@style/CircleShapeAppearance"
+        app:strokeColor="?attr/colorStroke"
+        app:strokeWidth="@dimen/imageBorderWidth"/>
+
+    <View
+        android:id="@+id/baseline1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/ownerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/ownerPhoto"
+        android:layout_above="@id/baseline1"
+        android:layout_marginStart="12dp"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif-medium"
+        android:singleLine="true"
+        android:textColor="?android:attr/textColor"
+        tools:text="Имя автора" />
+
+    <View
+        android:id="@+id/baseline2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignBaseline="@id/ownerName"/>
+
+    <ViewStub
+        android:id="@+id/verifiedStub"
+        android:inflatedId="@+id/verified"
+        android:layout_width="12sp"
+        android:layout_height="12sp"
+        android:layout_marginStart="5sp"
+        android:layout_toEndOf="@+id/ownerName"
+        android:layout_above="@id/baseline2"
+        android:layout="@layout/wall_view_stub_verified"/>
+
+    <View
+        android:id="@+id/baseline3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="@dimen/padding_1"
+        android:layout_toEndOf="@id/verifiedStub"/>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/padding_1"
+        android:layout_alignStart="@id/ownerName"
+        android:layout_below="@id/baseline1"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif"
+        android:singleLine="true"
+        android:textColor="?attr/colorSubtitle"
+        android:textSize="13sp"
+        tools:text="Сегодня в 0:00" />
+
+</RelativeLayout>

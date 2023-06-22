@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vkontakte.miracle.view.messages.ConversationView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:paddingHorizontal="8dp"
+    android:paddingVertical="4dp"
+
+    app:avatarImageSize="60dp"
+    app:spacingBetweenAvatarAndText="8dp"
+
+    app:titleTextAppearance="@style/ConversationItemView.Title"
+    app:messageOwnerTextAppearance="@style/ConversationItemView.MessageOwner"
+    app:messageTextAppearance="@style/ConversationItemView.Message"
+    app:actionMessageTextAppearance="@style/ConversationItemView.ActionMessage"
+    app:dateTextAppearance="@style/ConversationItemView.Date"
+
+    app:spacingBetweenText="4sp"
+
+    app:onlineIcon="@drawable/ic_online_16"
+    app:onlineIconSubtract="@drawable/ic_online_subtract_16"
+    app:onlineMobileIcon="@drawable/ic_online_mobile_16"
+    app:onlineMobileIconSubtract="@drawable/ic_online_mobile_subtract_16"
+    app:onlineIconTint="@color/green"
+    app:onlineIconSubtractTint="?android:colorBackground"
+    app:onlineIconSize="16dp"
+
+    app:verifiedIcon="@drawable/ic_verified_12"
+    app:verifiedIconSize="12sp"
+    app:verifiedIconTint="?colorPrimary"
+
+    app:mutedIcon="@drawable/ic_muted_12"
+    app:mutedIconSize="12sp"
+    app:mutedIconTint="?colorEmphasis_60"
+
+    app:emojiIconSize="18sp"
+
+    app:inReadCounterTextAppearance="@style/ConversationItemView.InReadCounter"
+    app:inReadCounterBackground="@drawable/conversation_counter_bg"
+    app:inReadCounterBackgroundTint="?colorPrimary"
+    app:inReadCounterPaddingHorizontal="7sp"
+    app:inReadCounterPaddingVertical="4sp"
+
+    app:outReadIcon="@drawable/conversation_unread_dot"
+    app:outReadIconSize="8dp"
+    app:outReadIconTint="?colorPrimary"
+    app:readMarkerSpacing="8dp"
+
+    app:typingMessageIndeterminateDrawable="@drawable/dots_indeterminate_20"
+    app:typingMessageIndeterminateDrawableWidth="20sp"
+    app:typingMessageIndeterminateDrawableHeight="15sp"
+    app:typingMessageIndeterminateDrawableTint="?colorPrimary"
+
+    app:recordingVoiceMessageIndeterminateDrawable="@drawable/sticks_indeterminate_20"
+    app:recordingVoiceMessageIndeterminateDrawableWidth="20sp"
+    app:recordingVoiceMessageIndeterminateDrawableHeight="15sp"
+    app:recordingVoiceMessageIndeterminateDrawableTint="?colorPrimary"/>

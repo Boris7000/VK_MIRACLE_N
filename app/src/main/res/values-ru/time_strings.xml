@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="recently">недавно</string>
+
+    <string name="formatted_time_hours">%dч:%dм:%02dс</string>
+    <string name="formatted_time_minutes">%dм:%02dс</string>
+    <string name="formatted_time_seconds">%dс</string>
+
+    <string name="formatted_date_ago_sec1">%1$d секунды назад</string>
+    <string name="formatted_date_ago_sec2">%1$d секунд назад</string>
+    <string name="formatted_date_ago_sec3">%1$d секунду назад</string>
+    <string name="formatted_date_ago_sec4">секунду назад</string>
+    <string name="formatted_date_ago_short_sec">%1$dс</string>
+
+    <string name="formatted_date_ago_minute1">%1$d минуты назад</string>
+    <string name="formatted_date_ago_minute2">%1$d минут назад</string>
+    <string name="formatted_date_ago_minute3">%1$d минуту назад</string>
+    <string name="formatted_date_ago_minute4">минуту назад</string>
+    <string name="formatted_date_ago_short_minute">%1$dмин</string>
+
+    <string name="formatted_date_ago_hour1">%1$d часа назад</string>
+    <string name="formatted_date_ago_hour2">%1$d часов назад</string>
+    <string name="formatted_date_ago_hour3">%1$d час назад</string>
+    <string name="formatted_date_ago_hour4">час назад</string>
+    <string name="formatted_date_ago_short_hour">%1$dч</string>
+
+    <string name="formatted_date_ago_short_day">%1$dд</string>
+    <string name="formatted_date_ago_short_week">%1$dн</string>
+    <string name="formatted_date_ago_short_month">%1$dм</string>
+    <string name="formatted_date_ago_short_year">%1$dг</string>
+
+    <string name="formatted_date_at">в %1$s</string>
+    <string name="formatted_date_today_at">сегодня в %1$s</string>
+    <string name="formatted_date_tomorrow_at">завтра в %1$s</string>
+    <string name="formatted_date_yesterday_at">вчера в %1$s</string>
+
+    <string name="formatted_date_day_month_time">%1$d %2$s в %3$s</string>
+    <string name="formatted_date_day_month_year_time">%1$d %2$s %3$d в %4$s</string>
+
+    <string name="formatted_date_short_month_1">янв.</string>
+    <string name="formatted_date_short_month_2">фев.</string>
+    <string name="formatted_date_short_month_3">мар.</string>
+    <string name="formatted_date_short_month_4">апр.</string>
+    <string name="formatted_date_short_month_5">мая</string>
+    <string name="formatted_date_short_month_6">июн.</string>
+    <string name="formatted_date_short_month_7">июл.</string>
+    <string name="formatted_date_short_month_8">авг.</string>
+    <string name="formatted_date_short_month_9">сен.</string>
+    <string name="formatted_date_short_month_10">окт.</string>
+    <string name="formatted_date_short_month_11">ноя.</string>
+    <string name="formatted_date_short_month_12">дек.</string>
+
+    <string name="formatted_date_full_month_1">января</string>
+    <string name="formatted_date_full_month_2">февраля</string>
+    <string name="formatted_date_full_month_3">марта</string>
+    <string name="formatted_date_full_month_4">апреля</string>
+    <string name="formatted_date_full_month_5">мая</string>
+    <string name="formatted_date_full_month_6">июня</string>
+    <string name="formatted_date_full_month_7">июля</string>
+    <string name="formatted_date_full_month_8">августа</string>
+    <string name="formatted_date_full_month_9">сентября</string>
+    <string name="formatted_date_full_month_10">октября</string>
+    <string name="formatted_date_full_month_11">ноября</string>
+    <string name="formatted_date_full_month_12">декабря</string>
+
+</resources>

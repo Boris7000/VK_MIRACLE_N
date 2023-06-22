@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="36dp"
+    tools:showIn="@layout/wall_ai_post">
+
+    <com.miracle.widget.ExtendedMaterialButton
+        android:id="@+id/likeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:paddingVertical="0dp"
+        android:paddingHorizontal="12dp"
+        android:minWidth="48dp"
+        android:drawablePadding="12dp"
+        android:checkable="true"
+        android:gravity="center_vertical"
+        android:animationDuration="800"
+        app:toggleCheckedStateOnClick="false"
+        app:iconPadding="12dp"
+        app:iconLeft="@drawable/ic_like_24_animated"
+        app:iconLeftStickingToText="false"
+        app:shapeAppearance="@style/ShapeAppearance2"
+        style="@style/LikeTonalButton" />
+
+    <com.miracle.widget.ExtendedMaterialButton
+        android:id="@+id/commentButton"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+
+        android:layout_toEndOf="@+id/likeButton"
+        android:layout_marginStart="@dimen/padding_1"
+
+        android:paddingVertical="0dp"
+        android:paddingHorizontal="12dp"
+        android:minWidth="48dp"
+        android:drawablePadding="12dp"
+        android:checkable="true"
+        android:gravity="center_vertical"
+        app:iconPadding="12dp"
+        app:iconLeft="@drawable/ic_comments_24"
+        app:iconLeftStickingToText="false"
+        app:shapeAppearance="@style/ShapeAppearance2"
+        style="@style/NeutralTonalButton"/>
+
+    <com.miracle.widget.ExtendedMaterialButton
+        android:id="@+id/repostButton"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+
+        android:layout_toEndOf="@+id/commentButton"
+        android:layout_marginStart="@dimen/padding_1"
+
+        android:paddingVertical="0dp"
+        android:paddingHorizontal="12dp"
+        android:minWidth="48dp"
+        android:drawablePadding="12dp"
+        android:checkable="true"
+        android:gravity="center_vertical"
+        app:iconPadding="12dp"
+        app:iconLeft="@drawable/ic_share_24"
+        app:iconLeftStickingToText="false"
+        app:shapeAppearance="@style/ShapeAppearance2"
+        style="@style/NeutralTonalButton" />
+
+    <com.miracle.widget.ExtendedTextView
+        android:id="@+id/viewsCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+
+        android:layout_alignParentEnd="true"
+
+        android:gravity="center_vertical"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="?attr/colorEmphasis_50"
+        android:textSize="13sp"
+        android:drawablePadding="4dp"
+        app:iconRight="@drawable/ic_views_outline_28"
+        app:iconRightTint="?attr/colorEmphasis_50"
+        tools:text="252"/>
+
+</RelativeLayout>

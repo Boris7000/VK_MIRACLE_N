@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="gone"
+    tools:visibility="visible">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginBottom="12dp"
+        android:text="@string/enterValidationCode"
+        android:textSize="20sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        app:shapeAppearance="@style/ShapeAppearance2"
+        app:boxStrokeColor="@color/primary_tinted_outlined_text_box_colors"
+        app:boxStrokeWidth="2dp"
+        android:textColorHint="?attr/colorEditTextHint"
+        app:hintTextColor="?attr/colorSecondary"
+        app:boxBackgroundMode="outline">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/appValidationCodeField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/validationCode"
+            android:inputType="text"
+            android:autofillHints="validationCode"
+            android:textSize="16sp"
+            android:includeFontPadding="false"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="15dp"
+            android:singleLine="true"
+            android:textCursorDrawable="@drawable/edit_text_cursor_drawable"
+            android:background="@null" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="12dp">
+        <com.miracle.widget.ExtendedMaterialButton
+            android:id="@+id/appValidationSendButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:paddingVertical="0dp"
+            android:text="@string/sendCode"
+            android:enabled="false"
+            app:shapeAppearance="@style/ShapeAppearance2"
+            style="@style/Button"/>
+        <Space
+            android:layout_width="12dp"
+            android:layout_height="0dp"/>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/appValidationCancelButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:paddingVertical="0dp"
+            android:text="@string/cancel"
+            app:shapeAppearance="@style/ShapeAppearance2"
+            style="@style/TonalButton"/>
+    </LinearLayout>
+
+    <com.miracle.widget.ExtendedMaterialButton
+        android:id="@+id/appValidationCodeForceButton"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:paddingVertical="0dp"
+        android:textAppearance="@style/ButtonTextAppearance"
+        android:text="@string/forceValidationCode"
+        android:enabled="true"
+        style="@style/TextButton"/>
+
+</LinearLayout>

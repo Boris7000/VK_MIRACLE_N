@@ -1,0 +1,93 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.vkontakte.miracle'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.vkontakte.miracle"
+        minSdk 24
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    def srcDirs = [
+            'activity/auth',
+            'activity/main',
+            'activity/start',
+
+            'fragment',
+            'fragment/feed',
+            'fragment/menu',
+            'fragment/messages',
+            'fragment/photos',
+
+            'view',
+
+            'viewholder/auth',
+            'viewholder/general',
+            'viewholder/groups',
+            'viewholder/messages',
+            'viewholder/photos',
+            'viewholder/users',
+            'viewholder/wall'
+    ]
+
+    sourceSets {
+        main {
+            res.srcDirs = ['src/main/res']
+            srcDirs.forEach {
+                res.srcDirs += 'src/main/java/com/vkontakte/miracle/' + it + '/res'
+            }
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    //multiThread
+    implementation 'io.reactivex.rxjava3:rxandroid:3.0.2'
+    implementation 'io.reactivex.rxjava3:rxjava:3.1.6'
+
+    //core
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation "androidx.lifecycle:lifecycle-process:2.5.1"
+    implementation "androidx.lifecycle:lifecycle-common:2.5.1"
+    implementation 'com.google.android.material:material:1.8.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+    implementation project(path: ':miracle-engine')
+    implementation project(path: ':miracle-widget')
+    implementation 'net.yslibrary.keyboardvisibilityevent:keyboardvisibilityevent:2.3.0'
+
+    //media
+    //noinspection GradleDependency
+    implementation 'com.squareup.picasso:picasso:2.8'
+
+    //network
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.okhttp3:okhttp:5.0.0-alpha.11'
+
+    //test
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+}
+

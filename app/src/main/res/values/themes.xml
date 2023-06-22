@@ -1,0 +1,19 @@
+<resources>
+    <style name="LightBaseTheme" parent="Engine.LightBaseTheme">
+        <item name="neutralRippleColor">#22888888</item>
+        <!--/////////////////////////////////////////////////////////////-->
+        <item name="colorMessageInContainer">@color/neutral_95</item>
+        <item name="colorOnMessageIn">@color/neutral_10</item>
+        <item name="colorMessageInPlaceholder">@color/neutral_90</item>
+        <item name="colorMessageInStroke">@color/neutral_80</item>
+        <item name="colorMessageInLink">?attr/colorPrimary</item>
+        <item name="colorMessageOutContainer">?attr/colorPrimary_50</item>
+        <item name="colorOnMessageOut">@color/white</item>
+        <item name="colorMessageOutPlaceholder">?attr/colorPrimary_60</item>
+        <item name="colorMessageOutStroke">?attr/colorPrimary_70</item>
+        <item name="colorMessageOutLink">?attr/colorPrimary_90</item>
+        <!--/////////////////////////////////////////////////////////////-->
+        <item name="colorLikeButton">@color/likeContainerLight</item>
+        <item name="colorOnLikeButton">@color/like</item>
+    </style>
+</resources>

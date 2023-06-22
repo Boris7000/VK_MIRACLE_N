@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/post_header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_ripple_r100"
+    tools:showIn="@layout/wall_ai_post">
+
+    <include layout="@layout/wall_include_owner_chip"/>
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:scaleType="centerInside"
+        android:layout_gravity="end|center_vertical"
+        app:tint="?attr/colorSubtitle"
+        app:srcCompat="@drawable/ic_more_vertical_28"/>
+</FrameLayout>

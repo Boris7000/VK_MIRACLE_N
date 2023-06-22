@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:translationZ="10dp"
+        style="@style/Widget.AppBar">
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_scrollFlags="noScroll"
+            style="@style/Widget.Toolbar">
+
+            <com.vkontakte.miracle.view.messages.ConversationHeaderChip
+                android:id="@+id/conversationChip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                app:avatarImageSize="40dp"
+                app:spacingBetweenAvatarAndText="8dp"
+
+                app:titleTextAppearance="@style/ConversationHeaderChip.Title"
+                app:subtitleTextAppearance="@style/ConversationHeaderChip.Subtitle"
+
+                app:spacingBetweenText="4sp"
+
+                app:onlineIcon="@drawable/ic_online_16"
+                app:onlineIconSubtract="@drawable/ic_online_subtract_16"
+                app:onlineMobileIcon="@drawable/ic_online_mobile_16"
+                app:onlineMobileIconSubtract="@drawable/ic_online_mobile_subtract_16"
+                app:onlineIconTint="@color/green"
+                app:onlineIconSubtractTint="?android:colorBackground"
+                app:onlineIconSize="16dp"
+
+
+                app:verifiedIcon="@drawable/ic_verified_12"
+                app:verifiedIconSize="12sp"
+                app:verifiedIconTint="?colorPrimary"
+
+                app:mutedIcon="@drawable/ic_muted_12"
+                app:mutedIconSize="12sp"
+                app:mutedIconTint="?colorEmphasis_60"
+
+                app:emojiIconSize="18sp"/>
+
+        </com.google.android.material.appbar.MaterialToolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:overScrollMode="ifContentScrolls"
+            android:scrollbarStyle="insideOverlay"
+            android:scrollbarThumbVertical="@drawable/scroll_bar_drawable"
+            android:scrollbars="vertical"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal"
+            android:background="@drawable/navigation_bar_bg_portrait">
+            <com.miracle.widget.ExtendedMaterialButton
+                style="@style/TextButton"
+                android:id="@+id/add_attachments_button"
+                android:layout_width="?attr/actionBarSize"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_gravity="bottom"
+                app:iconLeft="@drawable/ic_attach_28"
+                app:iconLeftTint="?colorEmphasis_60" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/messageEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:padding="12dp"
+                android:background="@android:color/transparent"
+                android:focusable="true"
+                android:hint="@string/message"
+                android:imeOptions="normal|actionNone"
+                android:inputType="textMultiLine"
+                android:maxLines="10"
+                android:minLines="1"
+                android:scrollbars="vertical"
+                android:textColorHint="?attr/colorEditTextHint"
+                android:textCursorDrawable="@drawable/edit_text_cursor_drawable"
+                android:textSize="18sp"/>
+
+            <com.miracle.widget.ExtendedMaterialButton
+                style="@style/TextButton"
+                android:id="@+id/emoji_button"
+                android:layout_width="?attr/actionBarSize"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_gravity="bottom"
+                app:iconLeft="@drawable/ic_smile_28"
+                app:iconLeftTint="?colorEmphasis_60" />
+
+            <com.miracle.widget.ExtendedMaterialButton
+                style="@style/TextButton"
+                android:id="@+id/messageSendButton"
+                android:layout_width="?attr/actionBarSize"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_gravity="bottom"
+                app:iconLeft="@drawable/ic_state_send_28"
+                android:checkable="true"
+                app:toggleCheckedStateOnClick="true" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <include layout="@layout/fragment_include_circle_progressbar"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

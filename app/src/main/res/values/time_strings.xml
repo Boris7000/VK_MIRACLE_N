@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="recently">recently</string>
+
+    <string name="formatted_time_hours">%dh:%dm:%02ds</string>
+    <string name="formatted_time_minutes">%dm:%02ds</string>
+    <string name="formatted_time_seconds">%ds</string>
+
+    <string name="formatted_date_ago_sec1">%1$d seconds ago</string>
+    <string name="formatted_date_ago_sec2">@string/formatted_date_ago_sec1</string>
+    <string name="formatted_date_ago_sec3">@string/formatted_date_ago_sec1</string>
+    <string name="formatted_date_ago_sec4">a second ago</string>
+    <string name="formatted_date_ago_short_sec">%1$ds</string>
+
+    <string name="formatted_date_ago_minute1">%1$d minutes ago</string>
+    <string name="formatted_date_ago_minute2">@string/formatted_date_ago_minute1</string>
+    <string name="formatted_date_ago_minute3">@string/formatted_date_ago_minute1</string>
+    <string name="formatted_date_ago_minute4">a minute ago</string>
+    <string name="formatted_date_ago_short_minute">%1$dmin</string>
+
+    <string name="formatted_date_ago_hour1">%1$d hours ago</string>
+    <string name="formatted_date_ago_hour2">@string/formatted_date_ago_hour1</string>
+    <string name="formatted_date_ago_hour3">@string/formatted_date_ago_hour1</string>
+    <string name="formatted_date_ago_hour4">a hour ago</string>
+    <string name="formatted_date_ago_short_hour">%1$dh</string>
+
+    <string name="formatted_date_ago_short_day">%1$dd</string>
+    <string name="formatted_date_ago_short_week">%1$dw</string>
+    <string name="formatted_date_ago_short_month">%1$dm</string>
+    <string name="formatted_date_ago_short_year">%1$dy</string>
+
+    <string name="formatted_date_at">at %1$s</string>
+    <string name="formatted_date_today_at">today at %1$s</string>
+    <string name="formatted_date_tomorrow_at">tomorrow at %1$s</string>
+    <string name="formatted_date_yesterday_at">yesterday at %1$s</string>
+
+    <string name="formatted_date_day_month_time">%1$d %2$s at %3$s</string>
+    <string name="formatted_date_day_month_year_time">%1$d %2$s %3$d at %4$s</string>
+
+    <string name="formatted_date_short_month_1">Jan.</string>
+    <string name="formatted_date_short_month_2">Feb.</string>
+    <string name="formatted_date_short_month_3">Mar.</string>
+    <string name="formatted_date_short_month_4">Apr.</string>
+    <string name="formatted_date_short_month_5">May.</string>
+    <string name="formatted_date_short_month_6">Jun.</string>
+    <string name="formatted_date_short_month_7">Jul.</string>
+    <string name="formatted_date_short_month_8">Aug.</string>
+    <string name="formatted_date_short_month_9">Sep.</string>
+    <string name="formatted_date_short_month_10">Oct.</string>
+    <string name="formatted_date_short_month_11">Nov.</string>
+    <string name="formatted_date_short_month_12">Dec.</string>
+
+    <string name="formatted_date_full_month_1">January</string>
+    <string name="formatted_date_full_month_2">February</string>
+    <string name="formatted_date_full_month_3">March</string>
+    <string name="formatted_date_full_month_4">April</string>
+    <string name="formatted_date_full_month_5">May</string>
+    <string name="formatted_date_full_month_6">June</string>
+    <string name="formatted_date_full_month_7">July</string>
+    <string name="formatted_date_full_month_8">August</string>
+    <string name="formatted_date_full_month_9">September</string>
+    <string name="formatted_date_full_month_10">October</string>
+    <string name="formatted_date_full_month_11">November</string>
+    <string name="formatted_date_full_month_12">December</string>
+
+</resources>

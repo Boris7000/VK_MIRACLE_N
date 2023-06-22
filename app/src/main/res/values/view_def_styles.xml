@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="VKTextView" parent="Widget.AppCompat.TextView">
+        <item name="highlightColor">?colorPrimary</item>
+        <item name="highlightUnderline">true</item>
+    </style>
+
+    <style name="ConversationItemView">
+    </style>
+
+    <style name="ConversationHeaderChip">
+    </style>
+
+    <style name="MessageOutContainerView">
+    </style>
+
+    <style name="MessageInContainerView">
+    </style>
+
+    <style name="ConversationItemView.Avatar">
+        <item name="android:background">?attr/colorPlaceholder</item>
+        <item name="android:padding">@dimen/imageBorderWidth</item>
+        <item name="shapeAppearanceOverlay">@style/CircleShapeAppearance</item>
+        <item name="strokeColor">?attr/colorStroke</item>
+        <item name="strokeWidth">@dimen/imageBorderWidth</item>
+    </style>
+
+    <style name="ConversationHeaderChip.Avatar">
+        <item name="android:background">?attr/colorPlaceholder</item>
+        <item name="android:padding">@dimen/imageBorderWidth</item>
+        <item name="shapeAppearanceOverlay">@style/CircleShapeAppearance</item>
+        <item name="strokeColor">?attr/colorStroke</item>
+        <item name="strokeWidth">@dimen/imageBorderWidth</item>
+    </style>
+
+</resources>

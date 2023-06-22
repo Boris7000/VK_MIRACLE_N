@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    android:orientation="vertical"
+    android:background="@drawable/rounded_card_1"
+    android:backgroundTint="?android:colorBackground">
+    <!--android:backgroundTint="?android:colorBackground"-->
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="@dimen/padding_1"
+        layout="@layout/wall_include_post_header"/>
+
+    <ViewStub
+        android:id="@+id/textVS"
+        android:inflatedId="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/padding_1"
+        android:layout_marginBottom="@dimen/padding_1"
+        android:layout="@layout/wall_view_stub_text"/>
+
+    <ViewStub
+        android:id="@+id/photosRecyclerViewVS"
+        android:inflatedId="@+id/photosRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/padding_1"
+        android:layout_marginBottom="@dimen/padding_1"
+        android:layout_gravity="center_horizontal"
+        android:layout="@layout/wall_view_stub_photos"/>
+
+    <include
+        android:layout_height="36dp"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="@dimen/padding_1"
+        android:layout_marginBottom="@dimen/padding_1"
+        layout="@layout/wall_include_post_footer"/>
+
+</LinearLayout>

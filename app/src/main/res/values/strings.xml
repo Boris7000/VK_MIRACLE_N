@@ -1,0 +1,141 @@
+<resources>
+
+    <string name="app_name" translatable="false">VK MIRACLE</string>
+
+    <string name="authorization">Authorization</string>
+    <string name="enterValidationCode">Enter validation code</string>
+    <string name="enterSMSCode">Enter the code from SMS</string>
+    <string name="enterCaptcha">Enter the code from the image</string>
+
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="validationCode">Validation code</string>
+    <string name="smsCode">Code from SMS</string>
+    <string name="captchaCode">Captcha code</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="signIn">Sign in</string>
+    <string name="sendCode">Send code</string>
+    <string name="forceValidationCode">Didn\'t receive a code?</string>
+
+    <string name="smsCodeRequest">Requesting sms code</string>
+    <string name="userDataRequest">Requesting user data</string>
+    <string name="sendingCode">Sending Code</string>
+    <string name="validationSMSDescription">You have been sent an SMS confirmation code to %s</string>
+
+    <string name="profile">Profile</string>
+    <string name="feed">Feed</string>
+    <string name="dialogs">Dialogs</string>
+    <string name="music">Music</string>
+
+    <string name="notifications">Notifications</string>
+    <string name="liked">Liked</string>
+    <string name="friends">Friends</string>
+    <string name="photos">Photos</string>
+    <string name="videos">Videos</string>
+    <string name="groups">Groups</string>
+    <string name="group">Group</string>
+    <string name="settings">Settings</string>
+
+    <string name="doNotDisturb">Do not disturb</string>
+    <string name="incognitoMode">Incognito mode</string>
+    <string name="nightMode">Night mode</string>
+    <string name="signOut">Sign out</string>
+
+    <string name="sticker">Sticker</string>
+    <string name="message">Message</string>
+    <string name="post">Post</string>
+    <string name="comment">Comment</string>
+    <string name="link">Link</string>
+    <string name="gift">Gift</string>
+    <string name="playlist">Playlist</string>
+
+    <string name="member">Member</string>
+    <string name="members_counter_1">%1$s members</string>
+    <string name="members_counter_2">@string/members_counter_1</string>
+    <string name="members_counter_3">@string/members_counter_1</string>
+
+    <string name="attachment">Attachment</string>
+    <string name="attachments_counter_1">%1$s attachments</string>
+    <string name="attachments_counter_2">@string/attachments_counter_1</string>
+    <string name="attachments_counter_3">@string/attachments_counter_1</string>
+
+    <string name="photo">Photo</string>
+    <string name="photos_counter_1">%1$s photos</string>
+    <string name="photos_counter_2">@string/photos_counter_1</string>
+    <string name="photos_counter_3">@string/photos_counter_1</string>
+
+    <string name="audio">Audio</string>
+    <string name="audios_counter_1">%1$s audios</string>
+    <string name="audios_counter_2">@string/audios_counter_1</string>
+    <string name="audios_counter_3">@string/audios_counter_1</string>
+
+    <string name="video">Video</string>
+    <string name="video_counter_1">%1$s videos</string>
+    <string name="video_counter_2">@string/video_counter_1</string>
+    <string name="video_counter_3">@string/video_counter_1</string>
+
+    <string name="file">File</string>
+    <string name="files_counter_1">%1$s files</string>
+    <string name="files_counter_2">@string/files_counter_1</string>
+    <string name="files_counter_3">@string/files_counter_1</string>
+
+    <string name="online">online</string>
+    <string name="last_seen_male">was online %1$s</string>
+    <string name="last_seen_female">@string/last_seen_male</string>
+    <string name="last_seen_no_sex">@string/last_seen_male</string>
+
+    <string name="you">You</string>
+
+    <string name="typing_message">Typing</string>
+    <string name="typing_message_by">%1$s is typing</string>
+    <string name="typing_message_by_multiple">%1$s and %2$s are typing</string>
+
+    <string name="recording_voice_message">Recording voice message</string>
+    <string name="recording_voice_message_by">%1$s is recording voice message</string>
+    <string name="recording_voice_message_by_multiple">%1$s and %2$s are recording voice message</string>
+
+    <string name="conversation_action_invite_user_male">%1$s invited %2$s</string>
+    <string name="conversation_action_invite_user_female">@string/conversation_action_invite_user_male</string>
+    <string name="conversation_action_invite_user_no_sex">@string/conversation_action_invite_user_male</string>
+    <string name="conversation_action_invite_user_neuter">@string/conversation_action_invite_user_male</string>
+    <string name="conversation_action_invite_user_by_self_male">%1$s has joined the chat</string>
+    <string name="conversation_action_invite_user_by_self_female">@string/conversation_action_invite_user_by_self_male</string>
+    <string name="conversation_action_invite_user_by_self_no_sex">@string/conversation_action_invite_user_by_self_male</string>
+    <string name="conversation_action_invite_user_by_self_neuter">@string/conversation_action_invite_user_by_self_male</string>
+    <string name="conversation_action_invite_user_by_you">You invited %1$s</string>
+    <string name="conversation_action_invite_user_by_self_you">You have joined the chat</string>
+
+    <string name="conversation_action_kick_user_male">%1$s kicked %2$s</string>
+    <string name="conversation_action_kick_user_female">@string/conversation_action_kick_user_male</string>
+    <string name="conversation_action_kick_user_no_sex">@string/conversation_action_kick_user_male</string>
+    <string name="conversation_action_kick_user_neuter">@string/conversation_action_kick_user_male</string>
+    <string name="conversation_action_kick_user_by_self_male">%1$s has left the chat</string>
+    <string name="conversation_action_kick_user_by_self_female">@string/conversation_action_kick_user_by_self_male</string>
+    <string name="conversation_action_kick_user_by_self_no_sex">@string/conversation_action_kick_user_by_self_male</string>
+    <string name="conversation_action_kick_user_by_self_neuter">@string/conversation_action_kick_user_by_self_male</string>
+    <string name="conversation_action_kick_user_by_you">You have kicked %1$s</string>
+    <string name="conversation_action_kick_user_by_self_you">You have left the chat</string>
+
+    <string name="conversation_action_chat_create_male">%1$s created the «%2$s» chat</string>
+    <string name="conversation_action_chat_create_female">@string/conversation_action_chat_create_male</string>
+    <string name="conversation_action_chat_create_no_sex">@string/conversation_action_chat_create_male</string>
+    <string name="conversation_action_chat_create_neuter">@string/conversation_action_chat_create_male</string>
+    <string name="conversation_action_chat_create_by_you">You have created the «%1$s» chat</string>
+
+    <string name="conversation_action_chat_photo_update_male">%1$s changed the chat photo</string>
+    <string name="conversation_action_chat_photo_update_female">@string/conversation_action_chat_photo_update_male</string>
+    <string name="conversation_action_chat_photo_update_no_sex">@string/conversation_action_chat_photo_update_male</string>
+    <string name="conversation_action_chat_photo_update_neuter">@string/conversation_action_chat_photo_update_male</string>
+    <string name="conversation_action_chat_photo_update_by_you">You have changed the chat photo</string>
+
+    <string name="conversation_action_chat_title_update_male">%1$s changed the name of the chat to «%2$s»</string>
+    <string name="conversation_action_chat_title_update_female">@string/conversation_action_chat_title_update_male</string>
+    <string name="conversation_action_chat_title_update_no_sex">@string/conversation_action_chat_title_update_male</string>
+    <string name="conversation_action_chat_title_update_neuter">@string/conversation_action_chat_title_update_male</string>
+    <string name="conversation_action_chat_title_update_by_you">You changed the name of the chat to «%1$s»</string>
+
+    <string name="feedPlaceholder">The news feed is empty yet, subscribe to communities or users to see their posts in the feed.</string>
+
+
+</resources>

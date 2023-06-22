@@ -1,0 +1,20 @@
+<resources>
+    <style name="NightBaseTheme" parent="Engine.NightBaseTheme">
+        <item name="neutralRippleColor">#22888888</item>
+        <!--/////////////////////////////////////////////////////////////-->
+        <item name="colorMessageInContainer">@color/neutral_20</item>
+        <item name="colorOnMessageIn">@color/white</item>
+        <item name="colorMessageInPlaceholder">@color/neutral_25</item>
+        <item name="colorMessageInStroke">@color/neutral_30</item>
+        <item name="colorMessageInLink">?attr/colorPrimary</item>
+        <item name="colorMessageOutContainer">?attr/colorPrimary_50</item>
+        <item name="colorOnMessageOut">@color/white</item>
+        <item name="colorMessageOutPlaceholder">?attr/colorPrimary_60</item>
+        <item name="colorMessageOutStroke">?attr/colorPrimary_70</item>
+        <item name="colorMessageOutLink">?attr/colorPrimary_90</item>
+        <!--/////////////////////////////////////////////////////////////-->
+        <item name="colorLikeButton">@color/likeContainerDark</item>
+        <item name="colorOnLikeButton">@color/like</item>
+    </style>
+
+</resources>

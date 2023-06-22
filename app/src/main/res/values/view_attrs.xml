@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="VKTextView">
+        <attr name="highlightColor" format="color"/>
+        <attr name="highlightUnderline" format="boolean"/>
+    </declare-styleable>
+
+
+    <attr name="markersSpacing" format="dimension"/>
+    <attr name="titleTextAppearance" format="reference"/>
+
+    <attr name="avatarImageStyle" format="reference"/>
+    <attr name="avatarImageSize" format="dimension"/>
+
+    <attr name="mutedIcon" format="reference"/>
+    <attr name="mutedIconSize" format="dimension"/>
+    <attr name="mutedIconTint" format="color"/>
+    <attr name="mutedIconTintMode">
+        <enum name="src_over" value="3"/>
+        <enum name="src_in" value="5"/>
+        <enum name="src_atop" value="9"/>
+        <enum name="multiply" value="14"/>
+        <enum name="screen" value="15"/>
+        <enum name="add" value="16"/>
+    </attr>
+
+    <attr name="verifiedIcon" format="reference"/>
+    <attr name="verifiedIconSize" format="dimension"/>
+    <attr name="verifiedIconTint" format="color"/>
+    <attr name="verifiedPersonIconTint" format="color"/>
+    <attr name="verifiedIconTintMode">
+        <enum name="src_over" value="3"/>
+        <enum name="src_in" value="5"/>
+        <enum name="src_atop" value="9"/>
+        <enum name="multiply" value="14"/>
+        <enum name="screen" value="15"/>
+        <enum name="add" value="16"/>
+    </attr>
+
+    <attr name="emojiIconSize" format="dimension"/>
+
+    <attr name="spacingBetweenAvatarAndText" format="dimension"/>
+    <attr name="spacingBetweenText" format="dimension"/>
+
+
+    <attr name="dateTextAppearance" format="reference"/>
+    <attr name="outReadIcon" format="reference"/>
+    <attr name="outReadIconSize" format="dimension"/>
+    <attr name="outReadIconTint" format="color"/>
+    <attr name="outReadIconTintMode">
+        <enum name="src_over" value="3"/>
+        <enum name="src_in" value="5"/>
+        <enum name="src_atop" value="9"/>
+        <enum name="multiply" value="14"/>
+        <enum name="screen" value="15"/>
+        <enum name="add" value="16"/>
+    </attr>
+
+    <attr name="deletedIcon" format="reference"/>
+    <attr name="deletedIconSize" format="dimension"/>
+    <attr name="deletedIconTint" format="color"/>
+    <attr name="deletedIconTintMode">
+        <enum name="src_over" value="3"/>
+        <enum name="src_in" value="5"/>
+        <enum name="src_atop" value="9"/>
+        <enum name="multiply" value="14"/>
+        <enum name="screen" value="15"/>
+        <enum name="add" value="16"/>
+    </attr>
+
+    <attr name="onlineIcon" format="reference"/>
+    <attr name="onlineIconSubtract" format="reference"/>
+    <attr name="onlineMobileIcon" format="reference"/>
+    <attr name="onlineMobileIconSubtract" format="reference"/>
+    <attr name="onlineIconSize" format="dimension"/>
+    <attr name="onlineIconTint" format="color"/>
+    <attr name="onlineIconSubtractTint" format="color"/>
+    <attr name="onlineIconTintMode">
+        <enum name="src_over" value="3"/>
+        <enum name="src_in" value="5"/>
+        <enum name="src_atop" value="9"/>
+        <enum name="multiply" value="14"/>
+        <enum name="screen" value="15"/>
+        <enum name="add" value="16"/>
+    </attr>
+
+    <declare-styleable name="ConversationView">
+
+        <attr name="titleTextAppearance"/>
+        <attr name="messageTextAppearance" format="reference"/>
+        <attr name="actionMessageTextAppearance" format="reference"/>
+        <attr name="messageOwnerTextAppearance" format="reference"/>
+        <attr name="dateTextAppearance"/>
+
+        <attr name="onlineIcon"/>
+        <attr name="onlineIconSubtract"/>
+        <attr name="onlineMobileIcon"/>
+        <attr name="onlineMobileIconSubtract"/>
+        <attr name="onlineIconSize"/>
+        <attr name="onlineIconTint"/>
+        <attr name="onlineIconSubtractTint"/>
+        <attr name="onlineIconTintMode"/>
+
+        <attr name="inReadCounterPaddingVertical" format="dimension"/>
+        <attr name="inReadCounterPaddingHorizontal" format="dimension"/>
+        <attr name="inReadCounterTextAppearance" format="reference"/>
+        <attr name="inReadCounterBackground" format="reference"/>
+        <attr name="inReadCounterBackgroundTint" format="color"/>
+        <attr name="inReadCounterBackgroundTintMode">
+            <enum name="src_over" value="3"/>
+            <enum name="src_in" value="5"/>
+            <enum name="src_atop" value="9"/>
+            <enum name="multiply" value="14"/>
+            <enum name="screen" value="15"/>
+            <enum name="add" value="16"/>
+        </attr>
+
+        <attr name="outReadIcon"/>
+        <attr name="outReadIconSize"/>
+        <attr name="outReadIconTint"/>
+        <attr name="outReadIconTintMode"/>
+
+        <attr name="mutedIcon"/>
+        <attr name="mutedIconSize"/>
+        <attr name="mutedIconTint"/>
+        <attr name="mutedIconTintMode"/>
+
+        <attr name="verifiedIcon"/>
+        <attr name="verifiedIconSize"/>
+        <attr name="verifiedIconTint"/>
+        <attr name="verifiedPersonIconTint"/>
+        <attr name="verifiedIconTintMode"/>
+
+        <attr name="typingMessageIndeterminateDrawable" format="reference"/>
+        <attr name="typingMessageIndeterminateDrawableWidth" format="dimension"/>
+        <attr name="typingMessageIndeterminateDrawableHeight" format="dimension"/>
+        <attr name="typingMessageIndeterminateDrawableTint" format="color"/>
+        <attr name="typingMessageIndeterminateDrawableTintMode">
+            <enum name="src_over" value="3"/>
+            <enum name="src_in" value="5"/>
+            <enum name="src_atop" value="9"/>
+            <enum name="multiply" value="14"/>
+            <enum name="screen" value="15"/>
+            <enum name="add" value="16"/>
+        </attr>
+
+        <attr name="recordingVoiceMessageIndeterminateDrawable" format="reference"/>
+        <attr name="recordingVoiceMessageIndeterminateDrawableWidth" format="dimension"/>
+        <attr name="recordingVoiceMessageIndeterminateDrawableHeight" format="dimension"/>
+        <attr name="recordingVoiceMessageIndeterminateDrawableTint" format="color"/>
+        <attr name="recordingVoiceMessageIndeterminateDrawableTintMode">
+            <enum name="src_over" value="3"/>
+            <enum name="src_in" value="5"/>
+            <enum name="src_atop" value="9"/>
+            <enum name="multiply" value="14"/>
+            <enum name="screen" value="15"/>
+            <enum name="add" value="16"/>
+        </attr>
+
+        <attr name="emojiIconSize"/>
+
+        <attr name="avatarImageStyle"/>
+        <attr name="avatarImageSize"/>
+
+        <attr name="spacingBetweenAvatarAndText"/>
+        <attr name="spacingBetweenText"/>
+
+        <attr name="readMarkerSpacing" format="dimension"/>
+
+
+    </declare-styleable>
+
+    <declare-styleable name="ConversationHeaderChip">
+
+        <attr name="titleTextAppearance"/>
+        <attr name="subtitleTextAppearance"/>
+
+        <attr name="onlineIcon"/>
+        <attr name="onlineIconSubtract"/>
+        <attr name="onlineMobileIcon"/>
+        <attr name="onlineMobileIconSubtract"/>
+        <attr name="onlineIconSize"/>
+        <attr name="onlineIconTint"/>
+        <attr name="onlineIconSubtractTint"/>
+        <attr name="onlineIconTintMode"/>
+
+        <attr name="mutedIcon"/>
+        <attr name="mutedIconSize"/>
+        <attr name="mutedIconTint"/>
+        <attr name="mutedIconTintMode"/>
+
+        <attr name="verifiedIcon"/>
+        <attr name="verifiedIconSize"/>
+        <attr name="verifiedIconTint"/>
+        <attr name="verifiedPersonIconTint"/>
+        <attr name="verifiedIconTintMode"/>
+
+        <attr name="emojiIconSize"/>
+
+        <attr name="avatarImageStyle"/>
+        <attr name="avatarImageSize"/>
+
+        <attr name="spacingBetweenAvatarAndText"/>
+        <attr name="spacingBetweenText"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="MessageOutContainerView">
+        <attr name="markersSpacing"/>
+        <attr name="dateTextAppearance"/>
+        <attr name="outReadIcon"/>
+        <attr name="outReadIconSize"/>
+        <attr name="outReadIconTint"/>
+        <attr name="outReadIconTintMode"/>
+
+        <attr name="deletedIcon"/>
+        <attr name="deletedIconSize"/>
+        <attr name="deletedIconTint"/>
+        <attr name="deletedIconTintMode"/>
+    </declare-styleable>
+
+    <declare-styleable name="MessageInContainerView">
+        <attr name="markersSpacing"/>
+        <attr name="dateTextAppearance"/>
+
+        <attr name="inReadIcon" format="reference"/>
+        <attr name="inReadIconSize" format="dimension"/>
+        <attr name="inReadIconTint" format="color"/>
+        <attr name="inReadIconTintMode">
+            <enum name="src_over" value="3"/>
+            <enum name="src_in" value="5"/>
+            <enum name="src_atop" value="9"/>
+            <enum name="multiply" value="14"/>
+            <enum name="screen" value="15"/>
+            <enum name="add" value="16"/>
+        </attr>
+
+        <attr name="deletedIcon"/>
+        <attr name="deletedIconSize"/>
+        <attr name="deletedIconTint"/>
+        <attr name="deletedIconTintMode"/>
+    </declare-styleable>
+
+</resources>

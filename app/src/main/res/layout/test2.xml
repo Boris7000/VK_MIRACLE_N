@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.vkontakte.miracle.view.messages.MessageInContainerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/carrot_95"
+        android:padding="10dp"
+        app:markersSpacing="4dp"
+        app:inReadIcon="@drawable/ic_views_filled_12"
+        app:inReadIconSize="12dp"
+        app:dateTextAppearance="@style/ConversationItemView.Date">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="20dp"
+                android:background="@color/carrot_70" />
+        </LinearLayout>
+
+
+    </com.vkontakte.miracle.view.messages.MessageInContainerView>
+
+
+
+</FrameLayout>

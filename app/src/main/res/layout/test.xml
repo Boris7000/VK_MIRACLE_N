@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.vkontakte.miracle.view.messages.ConversationHeaderChip
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+
+        app:avatarImageSize="40dp"
+        app:spacingBetweenAvatarAndText="8dp"
+
+        app:titleTextAppearance="@style/ConversationHeaderChip.Title"
+        app:subtitleTextAppearance="@style/ConversationHeaderChip.Subtitle"
+
+        app:spacingBetweenText="4sp"
+
+        app:onlineIcon="@drawable/ic_online_16"
+        app:onlineIconSubtract="@drawable/ic_online_subtract_16"
+        app:onlineMobileIcon="@drawable/ic_online_mobile_16"
+        app:onlineMobileIconSubtract="@drawable/ic_online_mobile_subtract_16"
+        app:onlineIconTint="@color/green"
+        app:onlineIconSubtractTint="?android:colorBackground"
+        app:onlineIconSize="16dp"
+
+
+        app:verifiedIcon="@drawable/ic_verified_12"
+        app:verifiedIconSize="12sp"
+        app:verifiedIconTint="?colorPrimary"
+
+        app:mutedIcon="@drawable/ic_muted_12"
+        app:mutedIconSize="12sp"
+        app:mutedIconTint="?colorEmphasis_60"
+
+        app:emojiIconSize="18sp"/>
+</FrameLayout>

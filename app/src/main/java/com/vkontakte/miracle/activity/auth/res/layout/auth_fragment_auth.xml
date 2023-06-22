@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginBottom="12dp"
+        android:text="@string/authorization"
+        android:textSize="20sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        app:shapeAppearance="@style/ShapeAppearance2"
+        app:boxStrokeColor="@color/primary_tinted_outlined_text_box_colors"
+        app:boxStrokeWidth="2dp"
+        android:textColorHint="?attr/colorEditTextHint"
+        app:hintTextColor="?attr/colorSecondary"
+        app:boxBackgroundMode="outline">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/loginField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="login"
+            android:background="@null"
+            android:hint="@string/login"
+            android:includeFontPadding="false"
+            android:inputType="textEmailAddress"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="15dp"
+            android:singleLine="true"
+            android:textCursorDrawable="@drawable/edit_text_cursor_drawable"
+            android:textSize="16sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        app:shapeAppearance="@style/ShapeAppearance2"
+        app:boxStrokeColor="@color/primary_tinted_outlined_text_box_colors"
+        app:boxStrokeWidth="2dp"
+        android:textColorHint="?attr/colorEditTextHint"
+        app:hintTextColor="?attr/colorSecondary"
+        app:passwordToggleTint="?attr/colorEditTextHint"
+        app:boxBackgroundMode="outline"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/passField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="password"
+            android:background="@null"
+            android:hint="@string/password"
+            android:imeOptions="actionGo"
+            android:includeFontPadding="false"
+            android:inputType="textPassword"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="15dp"
+            android:singleLine="true"
+            android:textCursorDrawable="@drawable/edit_text_cursor_drawable"
+            android:textSize="16sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.miracle.widget.ExtendedMaterialButton
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:paddingVertical="0dp"
+        android:text="@string/signIn"
+        android:enabled="false"
+        app:shapeAppearance="@style/ShapeAppearance2"
+        style="@style/Button"/>
+
+</LinearLayout>

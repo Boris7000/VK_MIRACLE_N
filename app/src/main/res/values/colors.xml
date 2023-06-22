@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="like">#ff3347</color>
+    <color name="likeContainerLight">#FFEDED</color>
+    <color name="likeContainerDark">#3E2526</color>
+
+    <color name="like_0125">#21FF3347</color>
+    <color name="like_0875">#E0FF3347</color>
+    <color name="green">#4bb34b</color>
+
+</resources>

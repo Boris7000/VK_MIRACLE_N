@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="neutralRippleColor" format="color"/>
+
+    <attr name="colorLikeButton" format="color"/>
+    <attr name="colorOnLikeButton" format="color"/>
+
+    <attr name="colorMessageInContainer" format="color"/>
+    <attr name="colorOnMessageIn" format="color"/>
+    <attr name="colorMessageInPlaceholder" format="color"/>
+    <attr name="colorMessageInLink" format="color"/>
+    <attr name="colorMessageInStroke" format="color"/>
+    <attr name="colorMessageOutContainer" format="color"/>
+    <attr name="colorOnMessageOut" format="color"/>
+    <attr name="colorMessageOutPlaceholder" format="color"/>
+    <attr name="colorMessageOutLink" format="color"/>
+    <attr name="colorMessageOutStroke" format="color"/>
+
+</resources>

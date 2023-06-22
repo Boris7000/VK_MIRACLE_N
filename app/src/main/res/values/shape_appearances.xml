@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ShapeAppearance1">
+        <item name="cornerSize">@dimen/round_1</item>
+    </style>
+
+    <style name="ShapeAppearance2">
+        <item name="cornerSize">@dimen/round_2</item>
+    </style>
+
+    <style name="ShapeAppearance3">
+        <item name="cornerSize">@dimen/round_3</item>
+    </style>
+
+    <style name="CircleShapeAppearance" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vkontakte.miracle.view.messages.MessageOutContainerView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="10dp"
+    android:paddingVertical="5dp"
+    app:markersSpacing="6dp"
+    app:outReadIcon="@drawable/conversation_unread_dot"
+    app:outReadIconSize="10dp"
+    app:outReadIconTint="?colorPrimary"
+    app:deletedIcon="@drawable/ic_delete_12"
+    app:deletedIconSize="12dp"
+    app:deletedIconTint="?colorEmphasis_60"
+    app:dateTextAppearance="@style/ConversationItemView.Date">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/message_out_bg"
+        android:orientation="vertical"
+        android:paddingTop="9dp"
+        android:paddingHorizontal="9dp">
+
+        <ViewStub
+            android:id="@+id/textVS"
+            android:inflatedId="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="3dp"
+            android:layout_marginBottom="9dp"
+            android:layout="@layout/chat_view_stub_message_out_text"/>
+
+    </LinearLayout>
+</com.vkontakte.miracle.view.messages.MessageOutContainerView>
+
+
+
+
